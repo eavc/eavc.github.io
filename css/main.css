@@ -110,9 +110,9 @@ body {
     -o-transform: translate(-50%, -50%);
 }*/
 
-.logo {
+/*.logo {
     width: 90%;
-}
+}*/
 
 img.logo {
     position: absolute;
@@ -140,7 +140,25 @@ img.logo:empty {
   img.logo { max-height: 90%; }
 }
 
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    color: #A8B4C2;
+    /*font-family: "Helvetica Neue", arial, sans-serif;*/*/
+    font-family: 'Krona One', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
 
+.footer a {
+    color: #FFD483;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
 
 
 
